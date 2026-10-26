@@ -51,7 +51,7 @@ public class Survivor implements ISurvivor {
   protected void fortify() throws InterruptedException {
     System.out.println(Thread.currentThread().getName() + " is fortifying the base.");
     base.useTool("fortification");
-    Thread.sleep(1000);
+    Thread.sleep(2000);
   }
 
   protected void scavenge() throws InterruptedException {
